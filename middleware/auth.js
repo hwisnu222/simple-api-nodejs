@@ -92,3 +92,7 @@ exports.login = function (req, res) {
     }
   });
 };
+
+exports.halamanrahasia = function (req, res) {
+  response.ok("halaman ini untuk user role 2 !", res);
+};
